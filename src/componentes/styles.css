@@ -1,0 +1,42 @@
+input{
+    height: 30px; 
+    border-radius: 10px;
+    border: 3px solid rgb(233, 233, 233); 
+    background-color:  rgb(233, 233, 233);
+    color:rgb(13, 13, 13)
+}
+
+
+.section{
+    width: 100vw; 
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+section div{
+    background-color: black;
+    color: white; 
+    border: 3px solid black; 
+    border-radius: 10px;
+    margin: 20px; 
+    padding: 10px; 
+    transition: 0.3s ease-in-out
+}
+h3,p{
+
+    background-color: black;
+    color: white; 
+    transition: 0.3s ease-in-out
+}
+section div:hover{
+    background-color: rgb(233, 233, 233);
+    color:rgb(13, 13, 13)
+}
+section div:hover h3{
+    background-color: rgb(233, 233, 233);
+    color:rgb(13, 13, 13)
+}
+section div:hover p{
+    background-color: rgb(233, 233, 233);
+    color:rgb(13, 13, 13)
+}
